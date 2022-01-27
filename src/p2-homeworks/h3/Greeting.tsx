@@ -32,7 +32,7 @@ const Greeting: React.FC<GreetingPropsType> = (
                     className={s.button}
                     disabled={!name}>add
             </button>
-            <span>{totalUsers}</span>
+            <div className={s.count}>{totalUsers}</div>
         </div>
     )
 }
